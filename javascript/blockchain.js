@@ -19,7 +19,7 @@ function finalizaCampanha() {
 function getContractBalance() {
     var boxBalance = document.getElementById("boxBalance");
     console.log("getContractBalance - submitting the request");
-    contract.getContractBalance()
+    contrato.getContractBalance()
         .then((resultFromContract) => {
             console.log("getContractBalance - result is", resultFromContract);
             boxBalance.innerHTML = resultFromContract;
