@@ -22,7 +22,7 @@ contract Vaquinha {
     }
 
     function Contribuir() public payable {
-        require(msg.value > 1 gwei, "Valor deve ser maior que 1 gwei");
+        require(msg.value > 0.01 ether, "Valor deve ser maior que 0,01 ether");
 
         approvers[msg.sender] = true;
         approversCount++;
