@@ -4,6 +4,9 @@ ethereum.enable();
 var signatario = provedor.getSigner();
 var contrato = new ethers.Contract(enderecoContrato, abiContrato, signatario);
 var campoStatus = document.getElementById("campoStatus");
+ var additionalSettings = {
+        value: ethers.utils.parseUnits(amount, 'ether')
+    };
 
 function finalizaCampanha() {
     contrato.finalizaCampanha()
@@ -41,9 +44,7 @@ function Contribuir() {
     }
     var boxCommStatus = document.getElementById("boxCommStatus");
     boxCommStatus.innerHTML = "Sending transaction...";
-    var additionalSettings = {
-        value: ethers.utils.parseUnits(amount, 'ether')
-    };
+   
     contrato.Contribuir(additionalSettings)
         .then((tx) => {
             console.log("executePayment - Transaction ", tx);
