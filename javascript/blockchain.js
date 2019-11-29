@@ -26,7 +26,7 @@ function getContractBalance() {
         })
         .catch((err) => {
             console.error(err);
-            alert("A screen will be load asking to allow this page to connect with your Ethereum account.\nPlease give this permission to proceed.\nOr if you don't have an Ethereum account please install Metamask");
+            alert("Please, provide permission to proceed.\nIf you do not have an Ethereum account, please install Metamask");
             ethereum.enable();
             alert("After you give the permission we are going to reload the page");
             document.location = "index.html";
@@ -47,7 +47,7 @@ function Contribuir() {
     contrato.Contribuir(additionalSettings)
         .then((tx) => {
             console.log("executePayment - Transaction ", tx);
-            boxCommStatus.innerHTML = "Transaction sent. Waiting for the result...";
+            boxCommStatus.innerHTML = "Transaction sent. Waiting for the result.";
             tx.wait()
                 .then((resultFromContract) => {
                     console.log("executePayment - the result was ", resultFromContract);
