@@ -42,7 +42,8 @@ function Contribuir() {
     var boxCommStatus = document.getElementById("boxCommStatus");
     boxCommStatus.innerHTML = "Sending transaction...";
     var additionalSettings = {
-        value: ethers.utils.parseUnits(amount, 'ether') };   
+        value: ethers.utils.parseUnits(amount, 'ether')
+    };
     contrato.Contribuir(additionalSettings)
         .then((tx) => {
             console.log("executePayment - Transaction ", tx);
@@ -65,5 +66,4 @@ function Contribuir() {
             boxCommStatus.innerHTML = "Something went wrong: " + err.message;
         })
 }
-
 
