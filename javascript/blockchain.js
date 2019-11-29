@@ -18,6 +18,7 @@ function finalizaCampanha() {
 
 function getContractBalance() {
     var boxBalance = document.getElementById("boxBalance");
+    var amount = document.frmEntrar.valorContrib.value
     var additionalSettings = {
         value: ethers.utils.parseUnits(amount, 'ether')
     };
