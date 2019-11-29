@@ -44,7 +44,7 @@ function Contribuir() {
     var additionalSettings = {
         value: ethers.utils.parseUnits(amount, 'ether')
     };
-    contract.Contribuir(additionalSettings)
+    contrato.Contribuir(additionalSettings)
         .then((tx) => {
             console.log("executePayment - Transaction ", tx);
             boxCommStatus.innerHTML = "Transaction sent. Waiting for the result...";
