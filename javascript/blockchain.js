@@ -35,7 +35,7 @@ function getContractBalance() {
 
 function Contribuir() {
     var amount = document.frmEntrar.valorContrib.value;
-    if (amount < 0,01) {
+    if (amount > 0,01) {
         alert("You must pay a minimum of 0,01 ether to the Contract");
         return false;
     }
