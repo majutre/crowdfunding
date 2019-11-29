@@ -35,14 +35,14 @@ function getContractBalance() {
 
 function Contribuir() {
     var amount = document.frmEntrar.valorContrib.value;
-    if (amount < 1000000000) {
-        alert("You must pay a minimum of 1 gwei to the Contract");
+    if (amount < 0,01) {
+        alert("You must pay a minimum of 0,01 ether to the Contract");
         return false;
     }
     var boxCommStatus = document.getElementById("boxCommStatus");
     boxCommStatus.innerHTML = "Sending transaction...";
     var additionalSettings = {
-        value: ethers.utils.parseUnits(amount, 'wei')
+        value: ethers.utils.parseUnits(amount, 'ether')
     };
     contract.Contribuir(additionalSettings)
         .then((tx) => {
