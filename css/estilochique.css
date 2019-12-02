@@ -82,12 +82,8 @@ body{
  }
  .fStyle input[type="text"]:focus,
  .fStyle input[type="date"]:focus,
- .fStyle input[type="datetime"]:focus,
- .fStyle input[type="email"]:focus,
  .fStyle input[type="number"]:focus,
  .fStyle input[type="search"]:focus,
- .fStyle input[type="time"]:focus,
- .fStyle input[type="url"]:focus,
  .fStyle textarea:focus,
  .fStyle select:focus
  {
@@ -135,6 +131,6 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: rgb(141, 72, 231); 
 }
  
