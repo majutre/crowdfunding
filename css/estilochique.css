@@ -64,11 +64,19 @@ body{
    font-size: 16px;
    border-radius: 2px;
    font-weight: bold;
+   border-radius: 12px;
+   box-shadow: 0 9px #999;
 }
 
 #btF5:hover{
     background-color:#4ae073;
     
+}
+
+#btF5:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* FORM */
