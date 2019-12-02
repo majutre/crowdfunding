@@ -27,6 +27,9 @@ body{
    color: black;
  }
  
+/* BOTÕES */
+
+/* Finalizar*/
  #btFim{
    background-color:rgb(87, 0, 75);
    border: none;
@@ -34,7 +37,6 @@ body{
    padding: 15px 30px;
    text-align: center;
    text-decoration: none;
-   display: 
    font-size: 16px;
    border-radius: 4px;
    font-weight: bold;
@@ -42,6 +44,23 @@ body{
 
 #btFim:hover{
     background-color:rgb(186, 52, 248);
+}
+
+/* Atualizar */
+ #btF5{
+   background-color: #20e856;
+   border: none;
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius: 2px;
+   font-weight: bold;
+}
+
+#btF5:hover{
+    background-color:#52fa80;
 }
  
 .fStyle{
