@@ -50,6 +50,7 @@ body{
 /* Atualizar */
 
 .btAtualiza{
+    display:block;
     text-align:center;
 }
  #btF5{
