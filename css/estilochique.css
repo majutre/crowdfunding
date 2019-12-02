@@ -132,7 +132,7 @@ body{
      width: 100%;
      padding: 3%;
      background:rgb(127, 64, 211);
-     border-bottom: 2px solid rgb(96, 26, 187);
+     border-bottom: none;
      border-top-style: none;
      border-right-style: none;
      border-left-style: none;	
