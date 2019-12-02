@@ -62,7 +62,7 @@ body{
 
 #btF5:hover{
     background-color:#52fa80;
-    cursor: pointer;
+    
 }
 
 /* FORM */
@@ -136,6 +136,7 @@ body{
  .fStyle [type="submit"]:hover,
  .fStyle [type="button"]:hover{
      background: rgb(157, 93, 240);
+     cursor: pointer;
  }
 
 /*SCROLL BAR*/
