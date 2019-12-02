@@ -48,6 +48,10 @@ body{
 }
 
 /* Atualizar */
+
+.btAtualiza{
+    text-align:center;
+}
  #btF5{
    background-color: #4CAF50;
    border: none;
