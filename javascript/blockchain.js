@@ -18,8 +18,13 @@ function finalizaCampanha() {
 
 function getContractBalance() {
     var boxBalance = document.getElementById("boxBalance");
+    var amount = contrato.getContractBalance();
+    var additionalSettings = {
+        value: ethers.utils.parseUnits(amount, 'ether')
+    };
+   
     console.log("getContractBalance - submitting the request");
-    contrato.getContractBalance()
+    contrato.getContractBalance(additionalSettings)
         .then((resultFromContract) => {
             console.log("getContractBalance - result is", resultFromContract);
             boxBalance.innerHTML = resultFromContract;
