@@ -44,11 +44,12 @@ body{
 
 #btFim:hover{
     background-color:rgb(186, 52, 248);
+    cursor: pointer;
 }
 
 /* Atualizar */
  #btF5{
-   background-color: #20e856;
+   background-color: #4CAF50;
    border: none;
    color: white;
    padding: 15px 30px;
@@ -61,6 +62,7 @@ body{
 
 #btF5:hover{
     background-color:#52fa80;
+    cursor: pointer;
 }
 
 /* FORM */
