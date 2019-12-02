@@ -40,7 +40,7 @@ function Contribuir() {
         return false;
     }
     var boxCommStatus = document.getElementById("boxCommStatus");
-    boxCommStatus.innerHTML = "Sending transaction...";
+    boxCommStatus.innerHTML = "Sending transaction.";
     var additionalSettings = {
         value: ethers.utils.parseUnits(amount, 'ether')
     };
