@@ -22,7 +22,7 @@ function getContractBalance() {
     contrato.getContractBalance()
         .then((resultFromContract) => {
             console.log("getContractBalance - result is", resultFromContract);
-            boxBalance.innerHTML = resultFromContract;
+            boxBalance.innerHTML = resultFromContract/1000000000000000000;
         })
         .catch((err) => {
             console.error(err);
