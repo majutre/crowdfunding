@@ -181,12 +181,12 @@ body{
 
 ::selection {
 background:rgb(127, 64, 211);
-color:#555;
+color:#ffffff;
 }
 
 ::-moz-selection {
 background:rgb(127, 64, 211);
-color:#555;
+color:#ffffff;
 }
 
 ::-webkit-selection {
