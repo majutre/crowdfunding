@@ -176,3 +176,20 @@ body{
   background: rgb(141, 72, 231); 
 }
  
+
+/* TEXT SELECTION */
+
+::selection {
+background:rgb(127, 64, 211);
+color:#555;
+}
+
+::-moz-selection {
+background:rgb(127, 64, 211);
+color:#555;
+}
+
+::-webkit-selection {
+background:#f094b7;
+color:#555;
+}
