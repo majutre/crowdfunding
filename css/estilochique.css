@@ -5,7 +5,7 @@ body{
  h1 {
      color: rgb(87, 0, 75);
      text-align: center;
-     font-family: 'Signika', sans-serif;
+     font-family: 'Candara', sans-serif;
      font-weight: bold;
      letter-spacing: 2.5px;
      font-size: 48px;
@@ -65,7 +65,7 @@ body{
    border-radius: 2px;
    font-weight: bold;
    border-radius: 12px;
-   box-shadow: 0 9px #999;
+   box-shadow: 0 12px 9px #999;
 }
 
 #btF5:hover{
