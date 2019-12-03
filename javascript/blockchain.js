@@ -28,7 +28,7 @@ function getContractBalance() {
             console.error(err);
             alert("Please, provide permission to proceed.\nIf you do not have an Ethereum account, please install Metamask");
             alert("After you give the permission we are going to reload the page");
-            document.location = "index.html";
+            
         });
 }
 
