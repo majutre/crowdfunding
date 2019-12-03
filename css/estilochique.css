@@ -37,11 +37,11 @@ body{
    padding: 15px 30px;
    text-align: center;
    text-decoration: none;
-   font-size: 16px;
+   font-size: 18px;
    border-radius: 4px;
    font-weight: bold;
 }
-
+ 
 #btFim:hover{
     background-color:rgb(186, 52, 248);
     cursor: pointer;
@@ -57,15 +57,18 @@ body{
  #btF5{
    background-color: #4CAF50;
    border: none;
-   color: white;
+   cursor: pointer;
+   outline: none;
+   color: #fff;
    padding: 15px 30px;
    text-align: center;
    text-decoration: none;
    font-size: 16px;
    border-radius: 2px;
    font-weight: bold;
-   border-radius: 12px 9px;
-   box-shadow: 0 9px #999;
+   border: none;
+   border-radius: 15px 12px;
+   box-shadow: 0 5px #999;
 }
 
 #btF5:hover{
